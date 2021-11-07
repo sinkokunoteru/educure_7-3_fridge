@@ -1,0 +1,329 @@
+body{
+  background: linear-gradient(159deg, rgba(168,230,249,1) 0%, rgba(32,188,235,1) 100%);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height:98vh;
+}
+
+td{
+  text-align: center;
+}
+.cold {
+    position: absolute;
+    top: -70px;
+    left: 9%;
+    width: 490px;
+}
+
+.logo {
+    width: 770px;
+    position: absolute;
+    top: 600px;
+    overflow: hidden;
+}
+.white_square {
+    width: 300px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 3em;
+    font-weight: bold;
+    letter-spacing: 15px;
+}
+span img{
+  width:100%;
+}
+.white_square a{
+  text-decoration: none;
+  color:black;
+}
+.index_link {
+  display: flex;
+  position:absolute;
+  width:600px;
+  justify-content: space-around;
+  bottom: 300px;
+  left: 63px;
+}
+.link a{
+  text-decoration: none;
+  color:black;
+}
+.form_text {
+    width: 25%;
+    text-align: center;
+    position: absolute;
+    right: 355px;
+    top: 196px;
+}
+.form_text p {
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.form {
+    position: absolute;
+    right: 94px;
+    top: 300px;
+    text-align: center;
+    z-index:3;
+}
+.vali{
+}
+.button {
+    border: none;
+    text-decoration: none;
+    color: black;
+    border-radius: 3em;
+    background-color: white;
+    height: 63px;
+    width: 238px;
+    font-size: 21px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.form_block {
+    display: flex;
+    margin-bottom: 35px;
+}
+.form_block input {
+    border: none;
+    border-radius: 3em;
+    width: 314px;
+}
+.form_block p {
+    width: 300px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.form_block select {
+    border: none;
+    width: 314px;
+    border-radius: 2em;
+    text-align: center;
+}
+.form_block h1{
+  font-size:15px;
+}
+.create_account_link{
+    display: flex;
+    justify-content: space-around;
+}
+.create_account_link a{
+  text-decoration: none;
+  color:black;
+  line-height: 65px;
+}
+.create_account_form{
+  position: absolute;
+  right: 94px;
+  top: 160px;
+  text-align: center;
+  z-index:3;
+}
+#main_menu{
+  position:absolute;
+  background-color:black;
+  border-radius:3em;
+  color:white;
+  width:116px;
+  text-align: center;
+  right:10px;
+  top:10px;
+  height: 42px;
+line-height: 43px;
+}
+#forget_pass{
+  position:absolute;
+  background-color:black;
+  border-radius:3em;
+  color:white;
+  width:240px;
+  text-align: center;
+  right:10px;
+  bottom:10px;
+  height: 42px;
+  line-height: 43px;
+}
+#confirm_text {
+    color: white;
+    font-size: 37px;
+    margin:0;
+    text-align: center;
+}
+#delete{
+  text-decoration:none;
+  color:black;
+  font-size:22px;
+}
+select{
+  width:78%;
+  border-radius:3em;
+  border:none;
+  height:28px;
+}
+.th{
+  background-color:white;
+}
+.made_recipes table tr:nth-child(even) td {
+	background-color:rgba(255,255,255,0.1);
+}
+.bt{
+  border-radius: 3em;
+  border: none;
+  height: 100%;
+  cursor:pointer;
+}
+.main_menu{
+  width: 45%;
+  position:absolute;
+  right:0px;
+  text-align:center;
+  height:94%;
+}
+.main_menu_bar {
+    position: relative;
+    top: 237px;
+    width: 600px;
+    margin-top: 30px;
+    cursor: pointer;
+    right:3%;
+}
+.main_menu_bar a {
+    text-decoration: none;
+    color: white;
+    font-size: 36px;
+    letter-spacing: 37px;
+}
+.main_menu_bar:hover{
+  border-radius:3em;
+  background-color: white;
+  text-align: center;
+  transition:1.5s;
+}
+.main_menu_bar a:hover{
+  color:black;
+  font-size: 30px;
+  transition:1.5s;
+}
+
+.suggest_recipe li {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    width:500px;
+}
+.suggest_recipe a {
+    text-decoration: none;
+}
+.suggest_recipe {
+    position: absolute;
+    right: 162px;
+    width: 460px;
+    bottom: 277px;
+    height:300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.suggest_recipe ul{
+
+}
+.check_list {
+    display: flex;
+    align-items: baseline;
+}
+.check_list input {
+    position: relative;
+    bottom: 2px;
+}
+.made_recipes ul {
+    background-color: white;
+    width: 100%;
+    border-radius: 13px;
+    list-style-type: none;
+    padding:0;
+}
+table{
+    width: 100%;
+    table-layout: fixed;
+    border:solid white;
+}
+th{
+  font-size:24px;
+  font-weight: lighter;
+  background-color:white;
+}
+td p{
+  font-family: "MS Pゴシック",sans-serif;
+  color:white;
+  font-weight:bold;
+  margin: 31px 0px;
+}
+.made_list{
+  display:flex;
+  margin-top:30px;
+  position: relative;
+  z-index: 3;
+  justify-content: space-around;
+}
+.recipe_add_link{
+    display: flex;
+    width:500px;
+    justify-content: space-around;
+    bottom: 300px;
+}
+.made_recipes {
+    height:500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.views{
+  width: 450px;
+  position: absolute;
+  right: 106px;
+  top: 81px;
+}
+.made_list li{
+  line-height:100px;
+}
+.fridge_foods_check{
+
+}
+.logout{
+  text-decoration:none;
+  color:white;
+  position:fixed;
+  background-color:black;
+  right:0px;
+  top:0px;
+  z-index:3;
+  width:100px;
+  text-align:center;
+  border-radius:3em;
+  height:30px;
+  line-height: 30px;
+}
+.add_form{
+  width: 50%;
+  position: absolute;
+  right: 5%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+}
+#button_position{
+  position:absolute;
+  right:200px;
+  bottom:150px;
+}
+#explain {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.2);
+    right: 55px;
+    top: 210px;
+    text-align:center;
+}
